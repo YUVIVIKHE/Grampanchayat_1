@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>प्रशासक लॉगिन - ग्रामपंचायत ब्राह्मणगाव</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="admin-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="admin-body">
+    <div class="admin-container">
+        <div class="login-form-container">
+            <div class="login-header">
+                <img src="Logo.jpg" alt="ग्रामपंचायत लोगो" class="login-logo">
+                <h2>ग्रामपंचायत ब्राह्मणगाव</h2>
+                <p>प्रशासक लॉगिन</p>
+            </div>
+            <form id="loginForm" class="admin-form">
+                <div class="form-group">
+                    <label for="username"><i class="fas fa-user"></i></label>
+                    <input type="text" id="username" name="username" placeholder="वापरकर्ता नाव" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"><i class="fas fa-lock"></i></label>
+                    <input type="password" id="password" name="password" placeholder="पासवर्ड" required>
+                </div>
+                <button type="submit" class="btn admin-btn">लॉगिन करा</button>
+            </form>
+            <div class="login-footer">
+                <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> मुख्यपृष्ठावर परत जा</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
+
+
